@@ -1,0 +1,17 @@
+{
+  "name": "playwright-example",
+  "description": "Playwrigth example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/*.e2e.spec.js --timeout 30000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "playwright": "^1.32.3"
+  }
+}
